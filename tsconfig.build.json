@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "node_modules",
+    "test",
+    "dist",
+    "**/*spec.ts",
+    "**/build",
+    "models/whisper.cpp/build",
+    "models/whisper.cpp/**/CMakeFiles"
+  ]
+}
